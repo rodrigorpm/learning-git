@@ -1,3 +1,79 @@
-body 
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
 
+.banner{
+    background: url(../amigos_training/assets/vampira.jpeg) center no-repeat;
+    background-size: cover;
+    height: 90vh;
+    padding-top: 30rem;
+    padding-bottom: 15rem;
+}
 
+.container{ 
+    max-width:1080px;
+    margin:0px 1.5rem;
+}
+.banner-title{
+    color: antiquewhite;
+    font-size: 3rem;
+}
+.banner-subtitle{
+    color: ivory;
+    font-size: 1.8rem;
+    margin-bottom: 2rem;
+    margin-left: 4px;
+}
+.container-btn{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: rgb(129, 129, 128);
+    color: black;
+    border-radius: 1.5rem;
+    padding: 1rem 1.5rem;
+    margin-bottom: 5rem;
+}
+
+#about, .content{
+    padding: 1rem 1.5rem 0rem 1.5rem;
+}
+
+#about p{
+    color: blue;
+    background-color: antiquewhite;
+    padding: 1rem;
+}
+
+#about span{
+
+    color:rgb(255, 98, 0);
+
+}
+.content{
+    margin-bottom: 5rem;
+}
+
+.content a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    background-color: rgb(220, 217, 20);
+    color: black;
+    border-radius: 2rem;
+    padding: 1rem 1.5rem;
+    margin-bottom: 5rem;
+}
+
+.content p{
+    background-color: darkkhaki;
+    margin-bottom: 3rem;
+    padding: 1rem;
+}
+
+.content span{
+    background-color: goldenrod;
+}
